@@ -1,0 +1,82 @@
+@media screen and (max-width: 861.99px) {
+    .slider-template {
+        width: 360px;
+        padding-bottom: 50px;
+        ~ .swiper-navigation {
+            max-width: 552px;
+        }
+    }
+}
+
+@media screen and (max-width: 767.99px) {
+    .calculation {
+        .calculation-form {
+            margin: 0 auto;
+            padding: 49px 30px 34px;
+            width: 100%;
+            margin-top: 23px;
+            .control-box_checkboxes {
+                margin-top: 10px;
+            }
+            
+            .control-box_file {
+                width: 100%;
+                margin-top: 28px;
+                padding: 8px 0 0;
+            }
+            .btn {
+                width: 100%;
+            }
+        }
+    
+        .calculation-row {
+            flex-direction: column;
+            gap: 0;
+        }
+    }
+
+    [type=file] + label {
+        padding: 12px 12px 8px;
+    }
+
+    .swiper-navigation {
+        display: none;
+    }
+
+    .card {
+        width: 335px;
+
+        .btn-row {
+            .btn {
+                max-width: 138px;
+                padding: 13px 8px;
+            }
+        }
+    }
+
+    .slider-template {
+        width: 335px;
+    }
+
+    .delivery {
+        padding: 54px 0 59px;
+        .card {
+            .img-box {
+                img {
+                    margin-top: -7px;
+                }
+            }
+        }
+    }
+
+    .services .card .img-box {
+        position: absolute;
+        inset: 0px 0px 0px 0px;
+        width: auto;
+        height: 100%;
+        z-index: 0;
+        /* object-fit: cover; */
+        /* object-fit: contain; */
+        margin-bottom: 0;
+    }
+}
